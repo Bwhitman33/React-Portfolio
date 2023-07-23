@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navigation.css'
 
 export default function Navigation() {
@@ -7,19 +7,19 @@ export default function Navigation() {
     <nav>
         <ul className= "nav-bar">
              <li>
-                <NavLink to="/" className="home">Home</NavLink> 
+                <Link to="/" className="home">Home</Link> 
             </li>
             <li>
-                <NavLink to="/about-me" className="about-me">About Me</NavLink> 
+                <Link to="/about-me" className="about-me">About Me</Link> 
             </li>
             <li>
-                <NavLink to="/showcase" className="showcase">Showcase</NavLink>
+                <Link to="/showcase" className="showcase">Showcase</Link>
             </li>
             <li>
-                <NavLink to="/resume" className="resume">Resume</NavLink>
+                <Link to="/resume" className="resume">Resume</Link>
             </li>
             <li>
-                <NavLink to="/contact" className="contact">Contact</NavLink>
+                <Link to="/contact" className="contact">Contact</Link>
             </li>
         </ul>
     </nav>
