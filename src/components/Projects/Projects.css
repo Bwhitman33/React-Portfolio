@@ -14,11 +14,24 @@
     height: 350px;
 }
 
-.project-card:hover {
+.project-screencap:hover {
     transform: scale(1.1);
 }
 
-.deploy a {
+.deploy {
     font-size: 24px;
     text-align: center;
+    padding-top: 15px;
+}
+
+.deploy:hover {
+    transform: scale(1.2);
+}
+
+.deploy a {
+    color: aliceblue;
+}
+
+.deploy a:hover {
+    color: aqua;
 }

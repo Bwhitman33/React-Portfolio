@@ -17,6 +17,5 @@ export default function Project({ title, image, deployedLink, github }) {
                 <a href={deployedLink}>{title}</a>{''} <br></br>
             </div>
         </div>
-
     );
 }
