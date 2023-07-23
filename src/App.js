@@ -11,8 +11,8 @@ export default function App() {
       <Header />
       <div className='body'>
         <Routes>
-          <Route path="*about-me" element={<Bio />} />
-          <Route path="/" element={<Bio />} />
+          <Route path="/about-me" element={<Bio />} />
+          {/* <Route path="/" element={<Bio />} /> */}
         </Routes>
       </div>
       <Footer />
