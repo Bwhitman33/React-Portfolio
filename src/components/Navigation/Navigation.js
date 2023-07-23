@@ -16,7 +16,7 @@ export default function Navigation() {
             </li>
             <li>
                 <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
-                to="/showcase" className="showcase">Showcase</NavLink>
+                to="/portfolio" className="portfolio">Portfolio</NavLink>
             </li>
             <li>
                 <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
