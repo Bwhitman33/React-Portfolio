@@ -10,7 +10,7 @@ export default function Navigation() {
                 <Link to="/" className="home">Home</Link> 
             </li>
             <li>
-                <Link to="/about-me" className="about-me">About Me</Link> 
+                <Link to="*about-me" className="about-me">About Me</Link> 
             </li>
             <li>
                 <Link to="/showcase" className="showcase">Showcase</Link>
