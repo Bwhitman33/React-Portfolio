@@ -1,0 +1,26 @@
+.About-Me p {
+    margin: 25px 0px 25px 0px;
+    font-size: 35px;
+    background-color:#556480; 
+    padding: 10px;
+    text-align: center;
+    color:aliceblue
+}
+
+h2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 50px;
+    background-color: #556480;
+    color:aliceblue
+}
+
+.vocals {
+    display: block;
+    width: 250px;
+    border-radius: 50%;
+    margin: 35px auto;
+}

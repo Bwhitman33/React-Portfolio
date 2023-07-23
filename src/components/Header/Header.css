@@ -2,13 +2,17 @@
     box-sizing: border-box;
     padding-bottom: 1px;
     margin: 0;
+    min-width: fit-content;
 }
 
 .header {
     padding: 10px;
     background-color: #373A40;
     color:aliceblue;
+    position: relative;
+    min-width: 100%;
 }
+
 h1 {
     display: inline-block;
     font-size: 60px;
