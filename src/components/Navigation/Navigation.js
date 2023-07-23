@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navigation.css'
 
 export default function Navigation() {
@@ -7,19 +7,24 @@ export default function Navigation() {
     <nav>
         <ul className= "nav-bar">
              <li>
-                <Link to="/" className="home">Home</Link> 
+                <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
+                to="/" className="home">Home</NavLink> 
             </li>
             <li>
-                <Link to="/about-me" className="about-me">About Me</Link> 
+                <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
+                to="/about-me" className="about-me">About Me</NavLink> 
             </li>
             <li>
-                <Link to="/showcase" className="showcase">Showcase</Link>
+                <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
+                to="/showcase" className="showcase">Showcase</NavLink>
             </li>
             <li>
-                <Link to="/resume" className="resume">Resume</Link>
+                <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
+                to="/resume" className="resume">Resume</NavLink>
             </li>
             <li>
-                <Link to="/contact" className="contact">Contact</Link>
+                <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
+                to="/contact" className="contact">Contact</NavLink>
             </li>
         </ul>
     </nav>

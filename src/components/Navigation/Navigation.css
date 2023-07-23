@@ -5,6 +5,10 @@
     justify-content: right;
 }
 
+.nav-bar :active {
+    color: blue;
+}
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
