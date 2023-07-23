@@ -6,16 +6,15 @@ export default function Project({ title, image, deployedLink, github }) {
 
     return (
         <div className="project-card" key={title}>
-            <img
+            <a href={github}>
+            <img 
                 src={image}
                 alt={title}
                 className="project-screencap"
-                width="350px"
-                height="350px"
             />
-            <div>
+            </a>
+            <div className="deploy">
                 <a href={deployedLink}>{title}</a>{''} <br></br>
-                <a href={github}>Github Repo</a>
             </div>
         </div>
 

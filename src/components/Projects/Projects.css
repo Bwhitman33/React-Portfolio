@@ -5,11 +5,20 @@
     justify-content: center;
 }
 
+.project-screencap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 350px;
+}
+
 .project-card:hover {
     transform: scale(1.1);
 }
 
-a {
+.deploy a {
     font-size: 24px;
     text-align: center;
 }
