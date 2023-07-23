@@ -3,7 +3,7 @@ body {
   font-family: 300 11px/1.4 'League Spartan';
   src: url('https://fonts.googleapis.com/css?family=League Spartan'); 
   margin: 0;
-  overflow: auto;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;

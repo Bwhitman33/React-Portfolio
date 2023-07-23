@@ -4,7 +4,9 @@
     background-color:#556480; 
     padding: 10px;
     text-align: center;
-    color:aliceblue
+    color:aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
 }
 
 h2{
@@ -15,7 +17,9 @@ h2{
     margin-top: 25px;
     font-size: 50px;
     background-color: #556480;
-    color:aliceblue
+    color:aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
 }
 
 .vocals {
@@ -23,4 +27,6 @@ h2{
     width: 250px;
     border-radius: 50%;
     margin: 35px auto;
+    border-style: solid;
+    border-color: aliceblue;
 }

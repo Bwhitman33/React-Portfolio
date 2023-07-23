@@ -1,0 +1,20 @@
+.Home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-cont {
+    position: relative;
+}
+.selfie {
+    position: absolute;
+    top: 170%;
+    left: 30%;
+    width: auto;
+    max-height: auto;
+    display: flex; 
+    background-size: cover;
+    border-style: solid;
+    border-color: aliceblue;
+    margin: auto;
+}
