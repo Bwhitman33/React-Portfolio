@@ -6,13 +6,9 @@ export default function Navigation() {
     return (
     <nav>
         <ul className= "nav-bar">
-             <li>
-                <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
-                to="/" className="home">Home</NavLink> 
-            </li>
             <li>
                 <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
-                to="/about-me" className="about-me">About Me</NavLink> 
+                to="/" className="about-me">About Me</NavLink> 
             </li>
             <li>
                 <NavLink style={({isActive}) => {return {color: isActive?'red':''}}}
