@@ -4,9 +4,11 @@ import Navigation from '../Navigation/Navigation';
 
 export default function Header() {
     return (
-    <div className="header">
+    <header className="header">
+      <div >
         <h1>Brandon Whitman</h1>
         <Navigation />
-    </div>
+      </div>
+    </header>
     );
 }
