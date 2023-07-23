@@ -47,9 +47,11 @@ export default function Portfolio() {
     return (
         <section className="project-space">
             <h2>My Works Showcase</h2>
+            <div className="portfolio-sections">
                 {showcase.map((project, index) => (
                 <Project key={index} {...project} />
                 ))}
+            </div>
         </section>
     );
 }

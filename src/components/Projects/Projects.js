@@ -1,10 +1,8 @@
 import React from "react";
 import './Projects.css'
-import SCREENSHOTS from "../../assets/projects";
+
 
 export default function Project({ title, image, deployedLink, github }) {
-
-    // const { title, deployedLink, github } = project;
 
     return (
         <div className="project-card" key={title}>
@@ -12,6 +10,8 @@ export default function Project({ title, image, deployedLink, github }) {
                 src={image}
                 alt={title}
                 className="project-screencap"
+                width="350px"
+                height="350px"
             />
             <div>
                 <a href={deployedLink}>{title}</a>{''} <br></br>
