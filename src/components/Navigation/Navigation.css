@@ -1,0 +1,38 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+}
+
+li {
+    font-size: 24px;
+    padding-top: 15px;
+    margin-right: 20px;
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+}
+
+ul {
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li:hover {
+    color:azure;
+    transform: scale(1.2);
+    text-shadow: none;
+}

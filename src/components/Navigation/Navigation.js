@@ -6,6 +6,9 @@ export default function Navigation() {
     return (
     <nav>
         <ul className= "nav-bar">
+             <li>
+                <NavLink to="/" className="home">Home</NavLink> 
+            </li>
             <li>
                 <NavLink to="/about-me" className="about-me">About Me</NavLink> 
             </li>
@@ -13,7 +16,7 @@ export default function Navigation() {
                 <NavLink to="/showcase" className="showcase">Showcase</NavLink>
             </li>
             <li>
-                <NavLink to="/resume" className="resume">resume</NavLink>
+                <NavLink to="/resume" className="resume">Resume</NavLink>
             </li>
             <li>
                 <NavLink to="/contact" className="contact">Contact</NavLink>

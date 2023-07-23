@@ -1,9 +1,7 @@
 
 body {
   font-family: 300 11px/1.4 'League Spartan';
-  src: url('https://fonts.googleapis.com/css?family=League Spartan');
-  color: #353030;
-  background: #3a0c0a;
+  src: url('https://fonts.googleapis.com/css?family=League Spartan'); 
   margin: 0;
   overflow: hidden;
   display: block;
