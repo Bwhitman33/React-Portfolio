@@ -1,8 +1,8 @@
 .About-Me p {
-    margin: 25px 0px 25px 0px;
-    font-size: 35px;
+    margin: 1.563rem 0rem 1.563rem 0rem;
+    font-size: 2.188rem;
     background-color:#556480; 
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
     color:aliceblue;
     border-style: solid;
@@ -14,8 +14,8 @@ h2{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
-    font-size: 50px;
+    margin-top: 1.563rem;
+    font-size: 3.125rem;
     background-color: #556480;
     color:aliceblue;
     border-style: solid;
@@ -27,9 +27,33 @@ h2{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 250px;
+    width: 15.625rem;
     border-radius: 50%;
-    margin: 35px auto;
+    margin: 2.188rem auto;
     border-style: solid;
     border-color: aliceblue;
+}
+
+@media only screen and (max-width: 920px) {  
+    .About-Me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: scroll;
+    }
+
+    .vocals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: scroll;
+        width: auto;
+    }
+    .pic-container {
+        max-width: 100vw;
+    }
 }

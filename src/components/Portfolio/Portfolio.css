@@ -4,3 +4,22 @@
     gap: 4vh 10vw;
     padding-top: 2rem;
 }
+
+@media only screen and (max-width: 920px) {  
+    .project-space {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: scroll;
+      }
+      .portfolio-sections {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: scroll;
+      }
+    }

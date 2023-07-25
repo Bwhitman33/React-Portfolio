@@ -19,6 +19,7 @@ export default function Resume() {
         <section className="Home">
             <div className="img-cont">
                 <img src={Selfie} alt="Me!" className="selfie" />
+                <h3><a href={resume} download>Download My Resume!</a></h3>
             </div>
             <div className="tech-list">
                 <h2>
@@ -51,7 +52,6 @@ export default function Resume() {
                     </li>
                 </ul>
             </div>
-            <h3><a href={resume} download>Download My Resume!</a></h3>
         </section>
     )
 }

@@ -6,7 +6,7 @@ export default function Bio() {
     return (
         <section className="About-Me">
         <h2>About Me</h2>
-        <div>
+        <div className="pic-container">
             <img src={frontman} alt="With Legions Vocalist- Me!" className="vocals" />
         </div>
             <p>
