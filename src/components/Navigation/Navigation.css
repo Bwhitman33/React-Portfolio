@@ -41,3 +41,8 @@ li:hover {
     text-shadow: none;
 }
 
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
