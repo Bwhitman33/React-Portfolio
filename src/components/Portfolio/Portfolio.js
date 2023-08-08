@@ -37,10 +37,10 @@ export default function Portfolio() {
             github: "https://github.com/Bwhitman33/Tech-Blog-Site",
         },
         {
-            title: 'Workday Scheduler',
-            image: SCREENSHOTS.WorkDayScheduler,
-            deployedLink: "https://bwhitman33.github.io/Work-Day-Scheduler/",
-            github: "https://github.com/Bwhitman33/Work-Day-Scheduler",
+            title: 'Sustain-A-Plate',
+            image: SCREENSHOTS.SustainAPlate,
+            deployedLink: "https://sustain-a-plate-a492ad2a8239.herokuapp.com/",
+            github: "https://github.com/Will-Riffe/Sustain-A-Plate",
         },
     ]);
 

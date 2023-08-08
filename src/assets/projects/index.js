@@ -4,7 +4,7 @@ const SCREENSHOTS = {
     PasswordGenerator: require('./PasswordGenerator.jpg'),
     SightsAndSounds: require('./SightsAndSounds.jpg'),
     TechBlogSite: require('./TechBlogSite.jpg'),
-    WorkDayScheduler: require('./WorkDayScheduler.jpg'),
+    SustainAPlate: require('./SustainAPlate.jpg'),
 }
 
 export default SCREENSHOTS;
